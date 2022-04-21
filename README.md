@@ -6,9 +6,9 @@ SQLiteMigrations is a Net Standard library for use with sqlite-net-pcl that allo
 
 [sqlite-net](https://github.com/praeclarum/sqlite-net)
 
-## Installation
+## NuGet Installation
 
-Install-Package Vitvov.SQLiteMigrations
+Install [Vitvov.SQLiteMigrations](https://www.nuget.org/packages/Vitvov.SQLiteMigrations) from NuGet.
 
 ## Usage
 
