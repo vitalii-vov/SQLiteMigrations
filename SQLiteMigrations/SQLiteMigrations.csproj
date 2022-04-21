@@ -2,6 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
+    <PackageId>Vitvov.SQLiteMigrations</PackageId>
+    <Authors>Vitalii Vovchok</Authors>
+    <Owners>Vitalii Vovchok</Owners>
+    <Description>SQLiteMigrations is a Net Standard library for use with sqlite-net-pcl that allows you to manage database migrations using the PRAGMA option.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <ReleaseVersion>1.0.0</ReleaseVersion>
+    <PackOnBuild>true</PackOnBuild>
+    <PackageProjectUrl>https://github.com/vitalii-vov/SQLiteMigrations</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
