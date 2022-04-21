@@ -29,9 +29,9 @@ namespace SQLiteMigrations
 
         public SQLiteAsyncConnection Connection { get; private set; }
 
-        public abstract List<IMigration> Migrations();
-
         public abstract Task CreateAsync();
+
+        public abstract List<IMigration> Migrations();
 
         public async Task ConnectAsync()
         {
