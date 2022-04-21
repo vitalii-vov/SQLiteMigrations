@@ -1,18 +1,18 @@
-# SQLiteMigrations
+## SQLiteMigrations
 
 SQLiteMigrations is a Net Standard library for use with sqlite-net-pcl that allows you to manage database migrations using the PRAGMA option
 
-# Dependencies
+## Dependencies
 
 [sqlite-net](https://github.com/praeclarum/sqlite-net)
 
-# Installation
+## Installation
 
 Install-Package Vitvov.SQLiteMigrations
 
-# Usage
+## Usage
 
-## Create a database connection
+### Create a database connection
 
 Let's say you have a database table
 
@@ -72,7 +72,7 @@ await database.ConnectAsync();
 //database.Connection.Table<RecordEntity>()...
 ```
 
-## Add migrations
+### Add migrations
 
 Let's say you want to add a new table
 ```csharp
@@ -130,7 +130,7 @@ public class AppDatabase : SQLiteAsyncDatabase
 }
 ```
 
-## One more example
+### One more example
 
 Let's say you want to add a new field to the RecordEntity table 
 
@@ -187,7 +187,7 @@ public class AppDatabase : SQLiteAsyncDatabase
 }
 ```
 
-# Using own SQLiteConnectionString
+## Using own SQLiteConnectionString
 
 To use your own connection string, pass it to the base class constructor.
 
