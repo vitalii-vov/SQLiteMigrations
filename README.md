@@ -1,10 +1,10 @@
 ## SQLiteMigrations
 
-SQLiteMigrations is a Net Standard library for use with sqlite-net-pcl that allows you to manage database migrations using the PRAGMA option
+SQLiteMigrations is a .NET Standard Library for use with [SQLite-net](https://github.com/praeclarum/sqlite-net) that allows you to manage database migrations using the PRAGMA option
 
 ## Dependencies
 
-[sqlite-net](https://github.com/praeclarum/sqlite-net)
+[SQLite-net](https://github.com/praeclarum/sqlite-net)
 
 ## NuGet Installation
 
