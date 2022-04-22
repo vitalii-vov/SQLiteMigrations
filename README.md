@@ -201,8 +201,7 @@ public class AppDatabase : SQLiteAsyncDatabase
 ```
 
 ```csharp
-var databasePath = Path.Combine(FileSystem.AppDataDirectory, "db.sqlite");
-var options = new SQLiteConnectionString(databasePath, true, key: "password");
+var options = new SQLiteConnectionString(databasePath);
 var database = new AppDatabase(options);
 await database.ConnectAsync();
 ```
