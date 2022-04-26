@@ -88,7 +88,7 @@ namespace SQLiteMigrations
             if (migrations is null)
                 throw new MigrationMissingException(currentVersion);
 
-            return migrations.Where(a => a.OldVersion > currentVersion).ToList();
+            return migrations.Where(a => a.OldVersion >= currentVersion).ToList();
         }
 
         private void ThrowIfMissingFirstMigration(List<IMigration> migrations, int currentVersion)
